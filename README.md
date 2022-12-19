@@ -88,7 +88,7 @@ Start using by importing speak() in your main application.
     engine.say(audio)
     engine.runAndWait()
 ```
-`Note:  If you use the code in another python script you need to import these libraries.`
+`Note: If you use the code in another python script you need to import these libraries.`
 
 ```python
 import pyttsx3
