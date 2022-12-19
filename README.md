@@ -72,7 +72,7 @@ Start using by importing Voice() which has seconds parameters that you can speci
 voice()
  ```
  
-## Speech To Text Engine:
+## Text To Speech Engine:
 
 Start using by importing speak() in your main application.
 
