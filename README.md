@@ -38,6 +38,10 @@
 
   * pip install `pyaudio`
   * pip install `vosk`
+
+#### Import Voice() which has seconds parameters that you can specity, ` default is 10 `.
+
+##### Code Implementation:
   
  ```
  def voice(seconds = 10):
