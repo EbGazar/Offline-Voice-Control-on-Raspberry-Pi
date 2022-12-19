@@ -76,7 +76,7 @@ Start using by importing speak() in your main application.
 
 ##### Code Implementation:
   
- ```
+ ```python
  def speak(audio):
     engine = pyttsx3.init()
     engine.setProperty('rate', 150)
@@ -84,3 +84,14 @@ Start using by importing speak() in your main application.
     engine.say(audio)
     engine.runAndWait()
 ```
+### Note: ` If you use the code in another python script you need to import these libraries.`
+
+```python
+import pyttsx3
+from vosk import Model, KaldiRecognizer
+import pyaudio
+import os
+import time
+```
+
+It's that simple!
