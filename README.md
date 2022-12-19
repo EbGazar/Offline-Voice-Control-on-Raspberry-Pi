@@ -2,9 +2,9 @@
 
 Designed To Run On:
 
-* Raspberry Pi.
-* Raspberry Pi OS.
-* Python 3.
+* [Raspberry Pi](https://www.raspberrypi.org/).
+* [Raspberry Pi OS](https://www.raspberrypi.com/software/).
+* [Python 3](https://www.python.org/downloads/).
 
 The Voice Control Consists of:
 
@@ -14,5 +14,10 @@ The Voice Control Consists of:
 The Voice Control uses:
 
 * [Vosk](https://alphacephei.com/vosk/) as the Speech-to-Text engine.
-* PYTTSX3 as the Text-to-Speech engine.
+* [PYTTSX3](https://pyttsx3.readthedocs.io/en/latest/) as the Text-to-Speech engine.
+
+For Order to use the Voice Control System you will need to:
+
+1 - Speakers Plugged into the Raspberry Pi usingn Jack.
+2 - Microphone Plugged ( Wired (USB) or Bluetooth ).
 
