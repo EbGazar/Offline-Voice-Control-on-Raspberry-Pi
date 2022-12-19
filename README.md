@@ -19,5 +19,6 @@ The Voice Control uses:
 For Order to use the Voice Control System you will need to:
 
 1 - Speakers Plugged into the Raspberry Pi usingn Jack.
+
 2 - Microphone Plugged ( Wired (USB) or Bluetooth ).
 
