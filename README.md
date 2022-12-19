@@ -36,8 +36,9 @@
 
 * First you need to install the necessary library packages which are:
 
-  * pip install `pyaudio`
-  * pip install `vosk`
+  * pip install `pyaudio`.
+  * pip install `vosk`.
+  * pip install `pyttsx3`.
 
 ## Speech To Text Engine:
 
@@ -68,3 +69,18 @@ Start using by importing Voice() which has seconds parameters that you can speci
 
 voice()
  ```
+ 
+## Speech To Text Engine:
+
+Start using by importing speak() in your main application.
+
+##### Code Implementation:
+  
+ ```
+ def speak(audio):
+    engine = pyttsx3.init()
+    engine.setProperty('rate', 150)
+    print("Assistant : " + audio)
+    engine.say(audio)
+    engine.runAndWait()
+```
