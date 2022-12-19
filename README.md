@@ -32,4 +32,10 @@
 - Speakers Plugged into the Raspberry Pi usingn Jack.
 - Microphone Plugged ( Wired `USB` or Bluetooth ).
 
-### 
+### Let's Get Started.
+
+* First you need to install the necessary library packages which are:
+
+  * `pyaudio`
+  * `vosk`
+  
