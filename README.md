@@ -39,7 +39,9 @@
   * pip install `pyaudio`
   * pip install `vosk`
 
-#### Import Voice() which has seconds parameters that you can specity, ` default is 10 `.
+### Speech To Text Engine:
+
+#### Start using by importing Voice() which has seconds parameters that you can specity, ` default is 10 ` in your main application.
 
 ##### Code Implementation:
   
