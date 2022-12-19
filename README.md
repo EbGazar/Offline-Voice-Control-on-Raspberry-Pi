@@ -46,7 +46,7 @@ Start using by importing Voice() which has seconds parameters that you can speci
 
 ##### Code Implementation:
   
- ```
+ ```python
  def voice(seconds = 10):
     start_time = time.time()
    
