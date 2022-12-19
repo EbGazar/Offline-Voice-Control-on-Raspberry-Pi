@@ -13,5 +13,6 @@ The Voice Control Consists of:
 
 The Voice Control uses:
 
-* Vosk as the Speech-to-Text engine.
+* [Vosk](https://alphacephei.com/vosk/) as the Speech-to-Text engine.
 * PYTTSX3 as the Text-to-Speech engine.
+
