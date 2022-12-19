@@ -42,6 +42,8 @@
 
 * or by using `pip install -r requirments.txt`
 
+* After checking that the <a>Speaker</a> and <a>Microphone</a> works properly start using the Voice Control System using the Engine implementation.
+
 ## Speech To Text Engine:
 
 Start using by importing Voice() which has seconds parameters that you can specity, ` default is 10 ` in your main application.
