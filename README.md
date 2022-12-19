@@ -42,9 +42,7 @@
 
 * or by using `pip install -r requirments.txt`
 
-* After checking that the <span style="color:green;font-weight:700;font-size:20px"> 
-markdown color font styles
-</span> and <b>Microphone</b> works properly start using the Voice Control System using the Engine implementation.
+* After checking that the <red>Speaker</red> and <b>Microphone</b> works properly start using the Voice Control System using the Engine implementation.
 
 ## Speech To Text Engine:
 
