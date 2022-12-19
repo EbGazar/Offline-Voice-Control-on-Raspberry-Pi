@@ -36,6 +36,29 @@
 
 * First you need to install the necessary library packages which are:
 
-  * `pyaudio`
-  * `vosk`
+  * pip install `pyaudio`
+  * pip install `vosk`
   
+ ```
+ def voice(seconds = 10):
+    start_time = time.time()
+   
+    stream.start_stream()
+    print("Model Started ....")
+    
+    while True:
+
+        current_time = time.time()
+        elapsed_time = current_time - start_time
+        
+        data = stream.read(4000,exception_on_overflow = False)
+        recogniser.AcceptWaveform(data)
+
+        result = recogniser.Result()[14:-3]
+        print(result)
+
+        if elapsed_time > seconds:
+            break
+
+voice()
+ ```
