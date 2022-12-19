@@ -40,6 +40,8 @@
   * pip install `vosk`.
   * pip install `pyttsx3`.
 
+* or by using `pip install -r requirments.txt`
+
 ## Speech To Text Engine:
 
 Start using by importing Voice() which has seconds parameters that you can specity, ` default is 10 ` in your main application.
@@ -84,7 +86,7 @@ Start using by importing speak() in your main application.
     engine.say(audio)
     engine.runAndWait()
 ```
-Note: ` If you use the code in another python script you need to import these libraries.`
+`Note:  If you use the code in another python script you need to import these libraries.`
 
 ```python
 import pyttsx3
